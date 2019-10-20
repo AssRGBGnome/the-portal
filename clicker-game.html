@@ -1,7 +1,32 @@
 <html>
 
-    <head>
-        <title>clicker-game</title>
-    </head>
+<head>
+    <title>clicker-game</title>
+    <link rel="stylesheet" href="style-clicker-game.css">
+    <script src="clicker-game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body onload="start();">
+
+    <div id="container-counter">
+        <p id="counter"></p>
+    </div>
+
+    <div id="container-button">
+        <button id="button" onclick="on_click();">uwu</button>
+    </div>
+
+    <div id="container-upgrades">
+        <button onclick="add_multiplier(2);">x2</button>
+        <button onclick="add_multiplier(4);">x4</button>
+        <button onclick="add_multiplier(8);">x8</button>
+        <button onclick="add_multiplier(16);">x16</button>
+        <button onclick="add_multiplier(32);">x32</button>
+        <button onclick="add_multiplier(64);">x64</button>
+        <button onclick="add_multiplier(128);">x128</button>
+        <button onclick="add_multiplier(256);">x256</button>
+    </div>
+</body>
 
 </html>

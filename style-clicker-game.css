@@ -1,0 +1,28 @@
+#container-counter{
+    text-align: center;
+    margin-top: 25rem;
+    font-size: 100;
+    margin-left: 0;
+}
+
+#container-button{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#container-upgrades{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+#button{
+    width: 15rem;
+    height: 5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+body{
+    margin: 0rem;
+    font-family: 'Open Sans', sans-serif;
+}
