@@ -1,0 +1,55 @@
+#container-header{
+    background-color: rgb(0, 217, 255);
+}
+
+#container-settings{
+    margin: 25px;
+    margin-right: 25px;
+}
+
+
+    /*seperator*/
+
+
+#header-text{
+    padding: 1px;
+    margin-left: 10px;
+}
+
+#footer-text{
+    margin-left: 25px;
+}
+
+#generate{
+    padding-top: 25px;
+}
+
+#gen-button{
+    padding: 10px 40px;
+}
+
+#header-hr{
+    box-shadow: 0px 3px 10px 0px rgba(3, 3, 3, 0.35);
+}
+
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    zoom: 110%;
+}
+
+img{
+    float: left;
+    margin: 0px;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+input{
+    width: 50px;
+}
+
+.result{
+    font-size: 45px;
+    margin: 10px;
+}

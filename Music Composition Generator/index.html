@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Composition Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="icon.jpg">
+</head>
+
+<body>
+    <div id="container-header">
+        <div id="header-text">
+            <img src="icon.jpg" width="75x">
+            <h1>Music Composition Generator</h1>
+        </div>
+        <hr id="header-hr">
+    </div>
+
+    <div id="container-content">
+        <div id="container-settings">
+
+            <div id="key">
+                <h3>key:</h3>
+                <p class="result" id="key-result">C</p>
+            </div>
+
+            <div id="quality">
+                <h3>quality:</h3>
+                <p class="result" id="quality-result">major</p>
+            </div>
+
+            <div id="bpm">
+                <h3>bpm:</h3>
+                
+                <p class="result" id="bpm-result">120</p>
+            </div>
+
+            <div id="generate">
+                <button id="gen-button" onclick="generate();">generate</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="container-footer">
+        <hr>
+        <p id="footer-text">&copy;2019 M.C.G</p>
+    </div>
+
+</body>
+
+</html>
